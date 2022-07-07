@@ -22,10 +22,7 @@ body{
 }
 
 .board.circle .cell:not(.x):not(.circle):hover::after,
-.board.circle .cell:not(.x):not(.circle):hover::before{
-    background: rgba(167, 102, 227, 0.144) !important;
-}
-
+.board.circle .cell:not(.x):not(.circle):hover::before,
 .board.x .cell:not(.x):not(.circle):hover::after,
 .board.x .cell:not(.x):not(.circle):hover::before{
     background: rgba(167, 102, 227, 0.144) !important;
@@ -106,6 +103,37 @@ body{
 
 .win-message{
     display: none;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.win-message button{
+    background-color: rgb(68, 4, 128);
+    border-radius: 5px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 2.5rem;
+    margin-top: 16px;
+    padding: 10px 15px;
+    
+}
+
+.win-message button:hover{
+    background: rgb(240, 238, 238);
+    color:rgb(68, 4, 128);
+}
+
+.win-message p {
+    color: white;
+    font-size: 5rem;
 }
 
 
