@@ -31,6 +31,7 @@ body{
 .cell{
     align-items: center;
     border: 2px solid blueviolet;
+    cursor: pointer;
     display: flex;
     justify-content: center;
     height: 100px;
