@@ -1,2 +1,2 @@
 # JogoDaVelha
-<img src="./images/Home-page.jpg">
+<img src="./images/Home-page.jpeg">
